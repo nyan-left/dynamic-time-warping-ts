@@ -1,0 +1,50 @@
+{
+  "name": "dynamic-time-warping-ts",
+  "version": "0.0.0",
+  "description": "Dynamic time warping for TypeScript.",
+  "main": "build/src/index.js",
+  "types": "build/src/index.d.ts",
+  "scripts": {
+    "start": "ts-node ./src/index.ts",
+    "clean": "rimraf coverage build tmp",
+    "build": "tsc -p tsconfig.release.json",
+    "build:watch": "tsc -w -p tsconfig.release.json",
+    "lint": "eslint ./src --ext .ts,.tsx",
+    "test": "jest"
+  },
+  "files": [
+    "README.md",
+    "CHANGELOG.md",
+    "build/**/*"
+  ],
+  "repository": "https://github.com/nyan-left/",
+  "author": "Deimantas Jakovlevas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nyan-left/dynamic-time-warping-ts/issues"
+  },
+  "homepage": "https://github.com/nyan-left/dynamic-time-warping-ts#readme",
+  "devDependencies": {
+    "@types/jest": "^27.0.1",
+    "@types/node": "^14.14.31",
+    "@typescript-eslint/eslint-plugin": "^4.15.1",
+    "@typescript-eslint/parser": "^4.15.1",
+    "eslint": "^7.20.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "jest": "^27.0.6",
+    "prettier": "^2.2.1",
+    "ts-jest": "^27.0.4",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.5"
+  },
+  "dependencies": {},
+  "keywords": [
+    "dtw",
+    "dynamic time warping",
+    "dynamic",
+    "time",
+    "warping"
+  ]
+}
