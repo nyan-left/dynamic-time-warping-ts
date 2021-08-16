@@ -17,7 +17,7 @@
     "CHANGELOG.md",
     "build/**/*"
   ],
-  "repository": "https://github.com/nyan-left/",
+  "repository": "https://github.com/nyan-left/dynamic-time-warping-ts/",
   "author": "Deimantas Jakovlevas",
   "license": "MIT",
   "bugs": {
